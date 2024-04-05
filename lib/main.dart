@@ -121,7 +121,6 @@ class _MyAppState extends State with SingleTickerProviderStateMixin {
                   Expanded(
                     child: Container(
                       margin: EdgeInsets.all(0),
-//                    height: MediaQuery.of(context).size.height,
                       child: ListView.builder(
                         itemCount: 10,
                         itemBuilder: (context, i) {
